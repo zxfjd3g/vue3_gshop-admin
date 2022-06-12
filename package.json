@@ -27,6 +27,7 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/js-cookie": "^3.0.2",
+    "@types/mockjs": "^1.0.6",
     "@types/node": "^16.11.36",
     "@types/nprogress": "^0.2.0",
     "@types/path-browserify": "^1.0.0",

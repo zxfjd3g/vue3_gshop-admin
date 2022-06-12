@@ -1,4 +1,4 @@
-<template>
+<template #title>
   <span>
     <svg-icon v-if="props.icon" :name="props.icon" />
     <span v-if="props.title && appStore.sidebar.opened">{{props.title}}</span>

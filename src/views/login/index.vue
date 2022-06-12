@@ -42,7 +42,7 @@
         </span>
       </el-form-item>
 
-      <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" 
+      <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;height: 40px;" 
         @click.native.prevent="handleLogin">登  陆</el-button>
 
     </el-form>
@@ -154,6 +154,7 @@ $cursor: #fff;
     .el-input__wrapper {
       width: 100%;
       background-color: transparent;
+      box-shadow: none;
       input {
         background: transparent;
         border: 0px;

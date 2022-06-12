@@ -67,7 +67,7 @@ export const allAsyncRoutes: Array<RouteRecordRaw> = [
     children: [
       {
         name: 'User',
-        path: 'user/list',
+        path: '/acl/user/list',
         component: () => import("@/views/acl/user/index.vue"),
         meta: {
           title: '用户管理',
@@ -75,7 +75,7 @@ export const allAsyncRoutes: Array<RouteRecordRaw> = [
       },
       {
         name: 'Role',
-        path: 'role/list',
+        path: '/acl/role/list',
         component: () => import("@/views/acl/role/index.vue"),
         meta: {
           title: '角色管理',
@@ -83,17 +83,17 @@ export const allAsyncRoutes: Array<RouteRecordRaw> = [
       },
       {
         name: 'RoleAuth',
-        path: 'role/auth',
+        path: '/acl/role/auth',
         component: () => import("@/views/acl/role/roleAuth.vue"),
         meta: {
           title: '角色管理',
           hidden: true,
-          activeMenu: 'role/list'
+          activeMenu: '/acl/role/list'
         },
       },
       {
         name: 'Permission',
-        path: 'permission/list',
+        path: '/acl/permission/list',
         component: () => import("@/views/acl/permission/index.vue"),
         meta: {
           title: '菜单管理',
