@@ -309,7 +309,7 @@ const getPieOption = () => {
       margin-left: 10px;
     }
 
-    ::v-deep .el-card__header {
+    :deep(.el-card__header) {
       display: flex;
       align-items: center;
       justify-content: space-between;

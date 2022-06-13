@@ -280,7 +280,6 @@ const {skuData} = toRefs(skuState)
       </div>
     */
     :deep(.el-carousel__indicator) {
-    // ::v-deep .el-carousel__indicator {
       button {
         background-color: pink;
       }
